@@ -1,0 +1,100 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
+
+.loginWrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.loginCard {
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1000px;
+  margin: 0;
+}
+
+.cardContent {
+  padding: 32px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.loginIcon {
+  font-size: 48px;
+  color: #1976d2;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+}
+
+.error {
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.textField {
+  margin-bottom: 40px;
+}
+
+.textField .MuiOutlinedInput-root {
+  border-radius: 25px;
+  height: 56px;
+}
+
+.passwordField {
+  margin-bottom: 40px;
+}
+
+.passwordField .MuiOutlinedInput-root {
+  border-radius: 25px;
+  height: 56px;
+}
+
+.submitButton {
+  height: 56px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-transform: none;
+  font-size: 16px;
+}
+
+.testAccounts {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.testAccountsText {
+  color: #666;
+  font-size: 12px;
+}
